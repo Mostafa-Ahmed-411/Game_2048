@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+body{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+}
+:root{
+    --main-bg-color : #0d161e;
+    --second-bg-color : #212529;
+    --main-text-color : black;
+    --second-text-color : white;
+}
+/* ----------------------------------- nav ---------------------------------- */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgba(245, 222, 179, 0.46);
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+}
+.game-scoure{
+    background-color: brown;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding: .5%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.game-scoure #scoure{
+    display: block;
+}
+.cards{
+    background-color: rgb(77, 77, 102);
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(166, 162, 162);
+    color: white;
+    width: calc((100% - 64px)/4);
+    padding: 4%;
+    margin: 5px;
+}
+input{
+    border: none;
+}
+.guide-buttons{
+    width: 50%;
+    display: flex;
+}
+#start,#reset{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 3%;
+    background-color: green;
+    padding: 10px 20px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+#reset{
+    background-color: rgb(123, 17, 17);
+}
+
+.x0{
+    background-color: gray;
+}
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #d7cbb4;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #c6b582;
+    color: white;
+}
+
+.x256{
+    background-color: #ae9646;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+/* -------------------------------------------------------------------------- */
+#footer{
+    background-color: rgba(122, 115, 115, 0.324);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+#footer #name{
+    font-weight: 900;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.c-2: (1){
+   
+    background-color: rgb(73, 96, 96);
+}
+.c-2: (2){
+    
+    background-color: teal;
+}
+.c-2: (3){
+    background-color: rgb(107, 222, 222);
+}
+.c-2: (4){
+    background-color: rgb(2, 252, 252);
+}
+.c-2: (5){
+    background-color: rgb(12, 100, 58);
+}
+.c-2: (6){
+    background-color: rgb(12, 150, 58);
+}
+.c-2: (7){
+    background-color: rgba(100, 255, 76, 0.781);
+}
+.c-2: (8){
+    background-color: rgb(100, 164, 102);
+}
+.c-2: (9){
+    background-color: rgb(12,255, 100);
+}
+.c-2: (10){
+    background-color: rgb(5, 124, 48);
+}
+.c-2: (11){
+    background-color: rgb(31, 235, 0);
+}
+
+
+
+*/
